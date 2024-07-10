@@ -1,0 +1,25 @@
+.kg-row{
+  padding: 10px;
+}
+input{
+  width: calc(100% - 12px);
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+input[type="text"]:focus, input[type="date"]:focus {
+  border-color: #5cb85c;
+}
+.kg-btn{
+  min-width: 70px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
